@@ -443,6 +443,7 @@ footer p {
     height: 100%;
     display: flex;
     justify-content: center;
+    transition: 250ms;
 }
 
 .modal-form {
@@ -452,6 +453,7 @@ footer p {
     background-color: white;
     margin-top: 80px;
     position: fixed;
+    transition: 250ms;
 
 }
 
@@ -460,8 +462,11 @@ footer p {
     top: 24px;
     left: 360px;
     cursor: pointer;
+    transition: 250ms;
 }
 
 .is-hidden {
     visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
 }
