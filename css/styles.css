@@ -23,6 +23,48 @@ li {
 }
 
 
+/* Header Hover Effect */
+
+
+
+.nav {
+    margin: 0;
+    height: 100%;
+}
+
+.nav li {
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.contacts li {
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+
+.hover-border {
+    background-color: #4D5AE5;
+    height: 4px;
+    width: 100%;
+    visibility: hidden;
+}
+
+.nav li:hover .hover-border{
+    visibility: visible;
+    cursor: pointer;
+}
+
+.contacts li:hover .hover-border {
+    visibility: visible;
+    cursor: pointer;
+
 .nav li{
     display: flex;
     flex-direction: column;
@@ -81,7 +123,6 @@ li {
 }
 
 /* End of Header Hover Effect */
-
 
 h2 {
     color: var(--NAVY-BLUE, #2E2F42);
