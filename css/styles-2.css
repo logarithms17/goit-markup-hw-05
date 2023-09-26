@@ -19,6 +19,7 @@ header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
     height: 72px;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .web-studio {
     color: var(--IRIS, #4D5AE5);
@@ -196,6 +197,10 @@ main li {
         background: var(--WHITE, #FFF);
 }
 
+.app-interface:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
 
 /* FOOTER */
 
@@ -218,6 +223,13 @@ footer a {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    /* margin-bottom: 17.5px; */
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 17.5px;
 }
 
 footer .studio {
