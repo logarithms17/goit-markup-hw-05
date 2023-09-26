@@ -322,12 +322,17 @@ button {
     margin-bottom: 0px;
 }
 
+.section1 li{
+    width: 264px;
+}
+
 .svg {
     width: 64px;
     height: 64px;
     padding: 24px 100px 24px 100px;
     background-color: var(--CLOUD);
 }
+
 
 /* End of Section 1 */
 
