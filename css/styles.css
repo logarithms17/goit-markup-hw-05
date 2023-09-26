@@ -64,26 +64,7 @@ li {
 .contacts li:hover .hover-border {
     visibility: visible;
     cursor: pointer;
-
-.nav li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 73px;
-    position: relative;
 }
-
-.contacts li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 73px;
-    position: relative;
-}
-
-
 
 /* Header Hover Effect */
 
